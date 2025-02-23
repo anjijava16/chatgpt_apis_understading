@@ -1,0 +1,27 @@
+API Response
+
+
+event: delta_encoding
+data: "v1"
+
+event: delta
+data: {"p": "", "o": "add", "v": {"message": {"id": "99916347-cba2-408e-a09f-f0274827f1e8", "author": {"role": "system", "name": null, "metadata": {}}, "create_time": null, "update_time": null, "content": {"content_type": "text", "parts": [""]}, "status": "finished_successfully", "end_turn": true, "weight": 0.0, "metadata": {"rebase_system_message": true, "message_type": "next", "model_slug": "gpt-4o", "default_model_slug": "auto", "parent_id": "883b8cce-6920-48ca-88ac-e4bb9f5d481f", "model_switcher_deny": [], "is_visually_hidden_from_conversation": true}, "recipient": "all", "channel": null}, "conversation_id": "67ba66bb-199c-800b-82a4-eef07dc0fd42", "error": null}, "c": 0}   
+
+event: delta
+data: {"v": {"message": {"id": "c88cf510-d07f-4466-98e0-70b082af1bf2", "author": {"role": "assistant", "name": null, "metadata": {}}, "create_time": 1740269543.122514, "update_time": null, "content": {"content_type": "text", "parts": [""]}, "status": "in_progress", "end_turn": null, "weight": 1.0, "metadata": {"citations": [], "content_references": [], "message_type": "next", "model_slug": "gpt-4o", "default_model_slug": "auto", "parent_id": "99916347-cba2-408e-a09f-f0274827f1e8", "model_switcher_deny": []}, "recipient": "all", "channel": null}, "conversation_id": "67ba66bb-199c-800b-82a4-eef07dc0fd42", "error": null}, "c": 1}    
+
+event: delta
+data: {"p": "/message/content/parts/0", "o": "append", "v": "I'm"}    
+
+event: delta
+data: {"v": " doing great! How about you"}    
+
+event: delta
+data: {"p": "", "o": "patch", "v": [{"p": "/message/content/parts/0", "o": "append", "v": "? \ud83d\ude0a"}, {"p": "/message/status", "o": "replace", "v": "finished_successfully"}, {"p": "/message/end_turn", "o": "replace", "v": true}, {"p": "/message/metadata", "o": "append", "v": {"finish_details": {"type": "stop", "stop_tokens": [200002]}, "is_complete": true}}]}      
+
+data: {"type": "message_stream_complete", "conversation_id": "67ba66bb-199c-800b-82a4-eef07dc0fd42"}
+
+data: {"type": "conversation_detail_metadata", "banner_info": null, "blocked_features": [], "model_limits": [], "limits_progress": null, "default_model_slug": "auto", "conversation_id": "67ba66bb-199c-800b-82a4-eef07dc0fd42"}
+
+data: [DONE]
+
